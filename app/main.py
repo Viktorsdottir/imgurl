@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, responses
 from pydantic import BaseModel
 from PIL import Image
 import hashlib
@@ -27,3 +27,8 @@ async def predict_api(img_file: UploadFile = File(...)):
     else:
         image.save("images/" + key + ".jpg", 'JPEG')
         return {"new": True, "url": "images/" + key}
+
+
+@app.get('/images/{key}')
+async def retrieve_image(key: str):
+    return responses.FileResponse("images/" + key + ".jpg")

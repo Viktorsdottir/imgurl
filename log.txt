@@ -5,3 +5,5 @@ https://fastapi.tiangolo.com/tutorial/request-files/#uploadfile
 Path parameters #fastapi
 https://fastapi.tiangolo.com/tutorial/path-params/
 Hash a pill image #image
+How to return an image in fastapi
+https://stackoverflow.com/questions/62359413/how-to-return-an-image-in-fastapi?noredirect=1&lq=1
