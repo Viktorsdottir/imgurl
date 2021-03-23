@@ -40,4 +40,5 @@ sudo chmod u+w: testimages
 
 uvicorn app.main:app --port 5000
 
+sudo apt install nginx
 
