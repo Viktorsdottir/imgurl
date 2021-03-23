@@ -1,2 +1,7 @@
 About fastapi #fastapi
 https://tiangolo.medium.com/introducing-fastapi-fdc1206d453f
+Uploading images #fastapi
+https://fastapi.tiangolo.com/tutorial/request-files/#uploadfile
+Path parameters #fastapi
+https://fastapi.tiangolo.com/tutorial/path-params/
+Hash a pill image #image
