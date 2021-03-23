@@ -1,0 +1,2 @@
+About fastapi #fastapi
+https://tiangolo.medium.com/introducing-fastapi-fdc1206d453f
