@@ -40,5 +40,15 @@ sudo chmod u+w: testimages
 
 uvicorn app.main:app --port 5000
 
-sudo apt install nginx
+#perhaps optional nginx configuration
+#sudo apt install nginx
+#sudo rm /etc/nginx/sites-enabled/default
+#sudo cp app/nginx/nginx.conf /etc/nginx/sites-enabled/
+#sudo service nginx restart
+#sudo ufw allow 'Nginx Full'
+#sudo ufw delete allow 'Nginx HTTP'
+
+#sudo add-apt-repository ppa:certbot/certbot
+#sudo apt install certbot python3-certbot-nginx
+#sudo certbot --nginx -d imgurl.com
 
