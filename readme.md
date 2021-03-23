@@ -12,7 +12,7 @@ Upload an image from path. The server responds with the URL to retrieve the imag
 
 {
 "new": true,
-"url": "/images/43d61d"
+"url": "/images/dfe1481e35c8840bad7d81ad4993d195"
 }
 
 Storing the same image more than once is accepted and detected, and returns that fact in the "new"
@@ -22,7 +22,7 @@ value, which is false for an image that already was uploaded:
 
 {
 "new": false,
-"url": "/images/43d61d"
+"url": "/images/dfe1481e35c8840bad7d81ad4993d195"
 }
 
 Download an image and save it to foo.jpg
